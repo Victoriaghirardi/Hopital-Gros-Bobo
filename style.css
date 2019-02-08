@@ -1,0 +1,232 @@
+h1{
+	display: inline-flex;
+	text-align: center;
+	width: auto;
+	text-transform:uppercase;
+  	font-size:45px;
+  	color: white;
+}
+body{
+	background-color: #FFEBCD;
+	text-align: center;
+	width: auto;
+	font-family: arvo, sans-serif;
+}
+button{
+	outline: none;
+}
+
+#image{
+	background: url(corps.png)no-repeat;
+	display: inline-flex;
+	width: auto;
+	position: relative;
+	height: 30%
+}
+
+.boutonEpaule{
+	position: absolute;
+	width:50px;
+	margin-top: 70px;
+ 	height:50px;
+ 	border-radius:50%;
+ 	background:black;
+ 	opacity: 0.5;
+ 	transition: all 1s;
+}
+.boutonEpaule:hover{
+	background-color: red;
+	border-color: #333;
+	transform: rotate(1080deg);
+	border-radius: 50%;
+}
+
+.boutonBras{
+	position: absolute;
+	width:50px;
+	margin-top: 170px;
+	margin-left: 100px;
+ 	height:50px;
+ 	border-radius:50%;
+ 	background:black;
+ 	opacity: 0.5;
+ 	transition: all 1s;
+}
+.boutonBras:hover{
+	background-color: red;
+	border-color: #333;
+	transform: rotate(1080deg);
+	border-radius: 50%;
+}
+
+.boutonMain{
+	position: absolute;
+	width:50px;
+	margin-top: 220px;
+	margin-left: 0px;
+ 	height:50px;
+ 	border-radius:50%;
+ 	background:black;
+ 	opacity: 0.5;
+ 	transition: all 1s;
+}
+.boutonMain:hover{
+	background-color: red;
+	border-color: #333;
+	transform: rotate(1080deg);
+	border-radius: 50%;
+}
+
+.boutonHanche{
+	position: absolute;
+	width:50px;
+	margin-top: 230px;
+	margin-left: 75px;
+ 	height:50px;
+ 	border-radius:50%;
+ 	background:black;
+ 	opacity: 0.5;
+ 	transition: all 1s;
+}
+.boutonHanche:hover{
+	background-color: red;
+	border-color: #333;
+	transform: rotate(1080deg);
+	border-radius: 50%;
+}
+
+.boutonGenoux{
+	position: absolute;
+	width:50px;
+	margin-top: 330px;
+	margin-left: 25px;
+ 	height:50px;
+ 	border-radius:50%;
+ 	background:black;
+ 	opacity: 0.5;
+ 	transition: all 1s;
+}
+.boutonGenoux:hover{
+	background-color: red;
+	border-color: #333;
+	transform: rotate(1080deg);
+	border-radius: 50%;
+}
+
+.boutonPied{
+	position: absolute;
+	width:50px;
+	margin-top: 430px;
+	margin-left: 65px;
+ 	height:50px;
+ 	border-radius:50%;
+ 	background:black;
+ 	opacity: 0.5;
+ 	transition: all 1s;
+}
+.boutonPied:hover{
+	background-color: red;
+	background-color: red;
+	border-color: #333;
+	transform: rotate(1080deg);
+	border-radius: 50%;
+}
+
+#text{
+	display: inline-block;
+	margin-left: 50px;
+	text-align: left;
+}
+
+#textEpaule{
+	position: absolute;
+	border: 2px solid white;
+	color: black;
+	width: 120%;
+	margin-top: 50%;
+	display: none;
+}
+
+#textBras{
+	position: absolute;
+	border: 2px solid white;
+	color: black;
+	margin-top: 50%;
+	width: 120%;
+	display: none;
+}
+
+#textMain{
+	border: 2px solid white;
+	color: black;
+	margin-top: 50%;
+	width: 120%;
+	display: none;
+	position: absolute;
+}
+
+#textHanche{
+	position: absolute;
+	border: 2px solid white;
+	color: black;
+	margin-top: 50%;
+	width: 120%;
+	display: none;
+}
+
+#textGenoux{
+	position: absolute;
+	border: 2px solid white;
+	color: black;
+	margin-top: 50%;
+	width: 120%;
+	display: none;
+}
+
+#textPied{
+	position: absolute;
+	border: 2px solid white;
+	color: black;
+	margin-top: 50%;
+	width: 120%;
+	display: none;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+/*.textBras{
+	margin-top: 20%;
+}
+.textMain{
+	margin-top: 24%;
+}
+.textHanche{
+	margin-top: 27%;
+}
+.textGenoux{
+	margin-top: 35%;
+}
+.textPied{
+	margin-top: 45%;
+}
+}*/
+
